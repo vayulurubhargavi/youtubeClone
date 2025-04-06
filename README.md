@@ -1,3 +1,19 @@
+<!-- building youtube --design -->
+
+<!--
+1. head
+2.body
+3.sidebar
+   --menuitems
+4.MainContainer
+  --buttonslist
+  --videcontainer
+        --videocard
+
+
+
+    -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
