@@ -11,6 +11,7 @@ import { FaShoppingBag } from "react-icons/fa";
 import { FaMusic } from "react-icons/fa";
 import { MdLocalMovies } from "react-icons/md";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
@@ -23,7 +24,7 @@ const SideBar = () => {
           <span className="pr-1">
             <IoHome size="1.5rem" />
           </span>
-          Home
+          <Link to={"/"}>Home</Link>
         </li>
         <li className="flex text-md ">
           <span className="pr-1">

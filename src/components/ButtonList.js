@@ -9,12 +9,12 @@ const ButtonList = () => {
     "Gaming",
     "News",
     "Sports",
-    "Fashion & Beauty",
+    "Fashion",
     "Learning",
     "Entertainment",
   ];
   return (
-    <div className="flex ">
+    <div className="flex">
       {buttonList.map((button) => (
         <Button key={button} name={button} />
       ))}
